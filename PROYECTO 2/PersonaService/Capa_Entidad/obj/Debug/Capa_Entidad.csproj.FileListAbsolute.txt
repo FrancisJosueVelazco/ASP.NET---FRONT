@@ -1,0 +1,6 @@
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Entidad\obj\Debug\Capa_Entidad.csprojAssemblyReference.cache

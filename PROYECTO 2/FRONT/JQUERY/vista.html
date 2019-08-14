@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="01-selectores.js"></script>
+
+    <style>
+        .claseestilo {
+            border: 5px dashed black;
+        }
+
+        .grande {
+            padding: 20px;
+            border: 2px dashed black;
+        }
+
+        #contenedor{
+            border:2px solid green;
+            align-content: center;
+            width: 250px;
+            height: 250px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="https://www.google.com.pe" title="Google"> Google</a></li>
+        <li><a href="https://www.facebook.com" title="Facebook">Facebook</a></li>
+    </ul>
+
+    <p id="rojo" class="sinclase">Ejercicio de Jquery</p>
+    <p id="amarillo" class="sinclase">Ejercicio de Jquery Master</p>
+    <p id="verde" class="sinclase">Ejercicio de Jquery Pro</p>
+    <p class="sinclase">Párrafo en blanco</p>
+
+    <form action="https://reqres.in/api/users" method="POST" id="formulario">
+
+        Usuario:<input type="text" name="txtusuario"/>
+        <br><br>
+        Web:<input type="text" name="txtweb"/>
+        <br><br>
+        <input type="submit" value="Registrar"/>
+
+    </form>
+    <div id="contenedor">
+    </div>
+
+</body>
+
+</html>

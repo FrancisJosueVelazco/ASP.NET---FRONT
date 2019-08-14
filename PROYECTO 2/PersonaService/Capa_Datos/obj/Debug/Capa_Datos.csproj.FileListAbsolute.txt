@@ -1,0 +1,9 @@
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\Users\fvelazco\Desktop\Proyecto MVC-SERVICE\PROYECTO 2\PersonaService\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete

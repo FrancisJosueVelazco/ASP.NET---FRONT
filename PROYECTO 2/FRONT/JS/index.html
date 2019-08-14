@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista</title>
+</head>
+
+<body>
+
+    <div align="center">
+        <h1>PERSONAS</h1>
+    </div>
+    
+    <button onclick="mostrar()" class="btn btn-danger">Mostrar Datos</button>
+    <div id="datos"></div>
+
+    <form>
+        <div class=" class=form-group">
+            Codigo:<input id="txtcodigo" type="text" name="txtcod" class="form-control form-control-sm" disabled required><br>
+            Nombres:<input id="txtnombres" type="text" name="txtnom" class="form-control form-control-sm"
+                           placeholder="Ingrese Nombre"><br>
+            Apellidos:<input id="txtapellidos" type="text" name="txtape" class="form-control form-control-sm"
+                             placeholder="Ingrese Apellidos"><br>
+            Edad:<input id="txtedad" type="number" name="txteda" class="form-control form-control-sm" placeholder="Ingrese Edad"><br>
+            Fecha:<input id="txtfecha" type="datetime" name="txtfec" class="form-control form-control-sm"
+                         placeholder="Ingrese Fecha"><br>
+            <input id="btnregistrar" type="button" value="Registrar" class="btn btn-success"><br>
+            <br>
+        </div>
+    </form>
+    <table border="1" class="table table-dark">
+
+        <tr>
+            <th>Codigo</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+            <th>Fecha</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td align="center">@Html.ActionLink("Editar", "Personas")</td>
+            <td align="center">@Html.ActionLink("Eliminar", "Personas")</td>
+
+        </tr>
+
+    </table>
+
+
+    <div id="advertencia" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                Ingresa todos los campos
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="consumo.js"></script>
+</body>
+
+</html>

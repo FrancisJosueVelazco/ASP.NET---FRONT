@@ -1,0 +1,20 @@
+[
+    {
+        "codigo": 1,
+        "nombre": "Francis",
+        "apellidos": "Velazco",
+        "edad": 21
+    },
+    {
+        "codigo": 2,
+        "nombre": "AAAA",
+        "apellidos": "BBBB",
+        "edad": 28
+    },
+    {
+        "codigo": 3,
+        "nombre": "CCCCC",
+        "apellidos": "VVVV",
+        "edad": 19
+    }
+]
