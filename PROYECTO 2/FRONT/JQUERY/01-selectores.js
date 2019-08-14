@@ -36,50 +36,51 @@ $(document).ready(function () {
     $('[title="Google"]').css("background", "green")
     $('[title="Facebook"]').css("background", "blue")
 
-});
+
+    //AJAX GET - POST
 
 
+    //-----------GET------------
+    $.get("https://reqres.in/api/users", { page: 1 }, function (response) {
+        response.data.forEach((element, index) => {
+            $('#contenedor').append("<p>" + element.first_name + "</p>");
+        });
 
-//AJAX GET - POST
+    });
 
+    //-----------POST - .ajax ------------
+    $('#formulario').submit(function (e) {
+        e.preventDefault();
 
-//-----------GET------------
-$.get("https://reqres.in/api/users", { page: 1 }, function (response) {
-    response.data.forEach((element, index) => {
-        $('#contenedor').append("<p>" + element.first_name + "</p>");
+        var usuario = {
+            name: $('[name="txtusuario"]').val(),
+            web: $('[name="txtweb"]').val()
+        };
+
+        $.ajax({
+            type: 'POST',
+
+            url: $(this).attr("action"),
+
+            data: usuario,
+
+            beforeSend: function () {
+                console.log("Enviando usuario...");
+            },
+            success: function (response) {
+                alert("Usuario Loguedo correctamente");
+            },
+            error: function () {
+                console.log("A ocurrido un error");
+            },
+            timeout: 2000
+
+        });
+
+        return false;
+
     });
 
 });
 
-//-----------POST - .ajax ------------
-$('#formulario').submit(function (e) {
-    e.preventDefault();
 
-    var usuario = {
-        name: $('["name=txtusuario"]').val(),
-        web: $('["name=txtweb"]').val()
-    };
-
-    $.ajax({
-        type:'POST',
-
-        url:$(this).attr("action"),
-
-        data:usuario,
-
-        beforeSend: function () {
-            console.log("Enviando usuario...");
-        },
-        success: function (response) {
-            alert("Usuario Loguedo correctamente");
-        },
-        error: function () {
-            console.log("A ocurrido un error");
-        },
-        timeout: 2000
-
-    });
-
-    return false;
-
-});
